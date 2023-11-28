@@ -4,7 +4,7 @@
 
 Bienvenue dans ce guide Vademecum destiné à l'organisation d'un hackathon axé sur les algorithmes. Inspiré par la [journée d'étude organisée par l'IJBA et le MICA](https://www.ijba.u-bordeaux-montaigne.fr/journee-detude-les-journalistes-au-defi-des-algorithmes/), qui s'est concentrée sur "Les journalistes au défi des algorithmes", ce guide vise à explorer la place croissante des algorithmes numériques dans divers domaines professionnels. En particulier, il s'attache à comprendre comment ces algorithmes façonnent notre monde, de la pratique journalistique à d'autres industries. 
 
-![algothon](./algothon.jpg)
+![algothon](./algothon.png)
 
 ## Premier Hackathon Consacré à l’Enquête Journalistique sur les Algorithmes
 
