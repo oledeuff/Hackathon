@@ -1,0 +1,179 @@
+/* CSS File Content - Style Amélioré */
+
+/* Réinitialisation de base */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset pour les éléments plus anciens */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+#h2Menu {
+    /* Styles pour le menu */
+    background-color: #f3f3f3;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#h2Menu ul {
+    /* Styles pour la liste du menu */
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul {
+    list-style-type: none; /* Enlève les puces de la liste */
+    padding: 0;
+}
+
+#menu ul li a {
+    text-decoration: none; /* Enlève le soulignement des liens */
+    color: #333; /* Couleur des liens */
+}
+
+#menu ul li a:hover {
+    text-decoration: underline; /* Souligne les liens au survol */
+}
+
+
+body {
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #f3f3f3; /* Gris pâle pour le fond */
+    color: #333; /* Couleur du texte en gris foncé */
+    padding: 20px 0; /* Espacement autour du contenu de l'en-tête */
+    text-align: center; /* Centrer le contenu de l'en-tête */
+    font-size: 24px; /* Taille de la police pour le titre */
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #abb8c3; /* Couleur de fond pour le footer */
+    color: #fff; /* Couleur du texte pour le footer */
+    padding: 20px 0; /* Espacement autour du contenu du footer */
+    text-align: center; /* Centrer le contenu du footer */
+    font-size: 18px; /* Taille de la police pour le footer */
+}
+
+.intro-bandeau {
+    background-color: #ffe4e1; /* Rose pâle */
+    padding: 20px; /* Espacement à l'intérieur du conteneur */
+    display: flex; /* Utilisation de Flexbox pour la disposition */
+    align-items: center; /* Alignement vertical des éléments */
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+}
+
+.intro-bandeau p {
+    flex-grow: 1; /* Le paragraphe prend tout l'espace disponible */
+    margin-right: 20px; /* Espace entre le texte et l'image */
+    font-size: 1.2em; /* Augmente la taille du texte */
+}
+
+.intro-bandeau img {
+    max-width: 300px; /* Taille maximale de l'image augmentée */
+    height: auto; /* Garde le ratio de l'image */
+    flex-shrink: 0; /* Empêche l'image de rétrécir en dessous de sa taille maximale */
+}
+
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 40px;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+h1, h4, h5, h6 {
+    font-family: 'Trade Gothic', 'Arial', 'Serif';
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #333333;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24px; /* Augmenter la taille pour les <h2> */
+    color: #e40051; /* Couleur rose, la même que celle des liens */
+    font-weight: bold; /* Mettre le texte en gras */
+}
+
+h3 {
+    font-size: 20px; /* Taille plus petite pour les <h3> */
+    color: #333; /* Couleur plus sombre ou différente pour les <h3> */
+    /* Vous pouvez conserver le style par défaut pour le poids de la police, ou le personnaliser */
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+    margin: 20px 0;
+}
+
+a {
+    color: #e40051;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
